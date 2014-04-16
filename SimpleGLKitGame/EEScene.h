@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@import GLKit;
 @interface EEScene : NSObject
-
+@property GLKVector4 clearColor;
+@property float left, right, bottom, top;
+-(void)update;
+-(void)render;
 @end

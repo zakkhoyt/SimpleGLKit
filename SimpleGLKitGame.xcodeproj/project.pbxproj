@@ -19,6 +19,12 @@
 		C66BE7D518FEFACB0036E098 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66BE7BD18FEFACB0036E098 /* UIKit.framework */; };
 		C66BE7DD18FEFACB0036E098 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66BE7DB18FEFACB0036E098 /* InfoPlist.strings */; };
 		C66BE7DF18FEFACB0036E098 /* SimpleGLKitGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C66BE7DE18FEFACB0036E098 /* SimpleGLKitGameTests.m */; };
+		C66BE7E918FEFAE80036E098 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66BE7E818FEFAE80036E098 /* QuartzCore.framework */; };
+		C66BE7EB18FEFAF00036E098 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66BE7EA18FEFAF00036E098 /* OpenGLES.framework */; };
+		C66BE7ED18FEFAF50036E098 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66BE7EC18FEFAF50036E098 /* GLKit.framework */; };
+		C66BE7EF18FEFB100036E098 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66BE7EE18FEFB100036E098 /* MainStoryboard.storyboard */; };
+		C66BE7F218FEFB570036E098 /* SGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66BE7F118FEFB570036E098 /* SGGViewController.m */; };
+		C66BE7FB18FEFEFE0036E098 /* EEScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C66BE7FA18FEFEFE0036E098 /* EEScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,14 @@
 		C66BE7DA18FEFACB0036E098 /* SimpleGLKitGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleGLKitGameTests-Info.plist"; sourceTree = "<group>"; };
 		C66BE7DC18FEFACB0036E098 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C66BE7DE18FEFACB0036E098 /* SimpleGLKitGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleGLKitGameTests.m; sourceTree = "<group>"; };
+		C66BE7E818FEFAE80036E098 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C66BE7EA18FEFAF00036E098 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C66BE7EC18FEFAF50036E098 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C66BE7EE18FEFB100036E098 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C66BE7F018FEFB570036E098 /* SGGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGViewController.h; sourceTree = "<group>"; };
+		C66BE7F118FEFB570036E098 /* SGGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGViewController.m; sourceTree = "<group>"; };
+		C66BE7F918FEFEFE0036E098 /* EEScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEScene.h; sourceTree = "<group>"; };
+		C66BE7FA18FEFEFE0036E098 /* EEScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66BE7ED18FEFAF50036E098 /* GLKit.framework in Frameworks */,
+				C66BE7EB18FEFAF00036E098 /* OpenGLES.framework in Frameworks */,
+				C66BE7E918FEFAE80036E098 /* QuartzCore.framework in Frameworks */,
 				C66BE7BC18FEFACB0036E098 /* CoreGraphics.framework in Frameworks */,
 				C66BE7BE18FEFACB0036E098 /* UIKit.framework in Frameworks */,
 				C66BE7BA18FEFACB0036E098 /* Foundation.framework in Frameworks */,
@@ -96,6 +113,9 @@
 		C66BE7B818FEFACB0036E098 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C66BE7EC18FEFAF50036E098 /* GLKit.framework */,
+				C66BE7EA18FEFAF00036E098 /* OpenGLES.framework */,
+				C66BE7E818FEFAE80036E098 /* QuartzCore.framework */,
 				C66BE7B918FEFACB0036E098 /* Foundation.framework */,
 				C66BE7BB18FEFACB0036E098 /* CoreGraphics.framework */,
 				C66BE7BD18FEFACB0036E098 /* UIKit.framework */,
@@ -111,6 +131,11 @@
 				C66BE7C918FEFACB0036E098 /* RDAppDelegate.m */,
 				C66BE7CB18FEFACB0036E098 /* Images.xcassets */,
 				C66BE7C018FEFACB0036E098 /* Supporting Files */,
+				C66BE7EE18FEFB100036E098 /* MainStoryboard.storyboard */,
+				C66BE7F018FEFB570036E098 /* SGGViewController.h */,
+				C66BE7F118FEFB570036E098 /* SGGViewController.m */,
+				C66BE7F918FEFEFE0036E098 /* EEScene.h */,
+				C66BE7FA18FEFEFE0036E098 /* EEScene.m */,
 			);
 			path = SimpleGLKitGame;
 			sourceTree = "<group>";
@@ -220,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66BE7EF18FEFB100036E098 /* MainStoryboard.storyboard in Resources */,
 				C66BE7C418FEFACB0036E098 /* InfoPlist.strings in Resources */,
 				C66BE7CC18FEFACB0036E098 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66BE7FB18FEFEFE0036E098 /* EEScene.m in Sources */,
 				C66BE7CA18FEFACB0036E098 /* RDAppDelegate.m in Sources */,
+				C66BE7F218FEFB570036E098 /* SGGViewController.m in Sources */,
 				C66BE7C618FEFACB0036E098 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
